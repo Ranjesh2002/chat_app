@@ -19,6 +19,8 @@ This project is a real-time WebSocket-based chat application built using **FastA
 ### 1. Setup Python Virtual Environment
 
 ```bash
+git clone <repo-url>
+cd chat-app
 python -m venv venv
 # Activate environment
 # Windows:
@@ -28,4 +30,5 @@ source venv/bin/activate
 ```
 
 ### 2. Install Required Packages
-# pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
